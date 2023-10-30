@@ -27,6 +27,8 @@ Write a solution to find the IDs of the users who visited without making any tra
 
 Return the result table sorted in any order.
 
+
+
 Solution:
 select v.customer_id ,
  count(customer_id) as count_no_trans
